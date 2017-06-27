@@ -15,7 +15,10 @@ export default function() {
       }
     }, {
       type: 'rentals',
+
       id: 'urban-living',
+
+
       attributes: {
         title: 'Urban Living',
         owner: 'Mike Teavee',
@@ -48,8 +51,5 @@ export default function() {
     } else {
       return { data: rentals };
     }
-
   });
-
-
 }
